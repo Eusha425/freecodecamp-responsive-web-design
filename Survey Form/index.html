@@ -1,0 +1,68 @@
+<!-- Author: Gazi MD Wasi-UL-Hoque
+     Version: 24 December 2023 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="hero">
+            <h1 id="title">Classroom observation Survey</h1>
+            <p id="description">Please take a few minutes to complete the Survey</p>
+        </div>
+        <div class="content">
+            <form action="" id="survey-form">
+
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" required placeholder="Harry" autofocus autocomplete="off">
+
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" required placeholder="harry.styles@popstar.com">
+
+                <label for="number" id="number-label">Roll Number</label>
+                <input type="number" id="number" min="1" max="100" placeholder="69">
+
+                <select name="subject" id="dropdown">
+                    <option value="" selected disabled>Please select a subject</option>
+                    <option value="Maths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="English">English</option>
+                    <option value="Computer">Computer Science</option>
+                    <option value="Art">Art</option>
+                </select>
+                <div id="current-student">
+                    <p>Are you a current Student?</p>
+                    <input type="radio" value="Yes" name="radio"><label for="yes-radio">Yes</label>
+                    <input type="radio" value="No" name="radio"><label for="no-radio">No</label>
+                </div>
+
+                <div id="current-subject">
+                    <p>Which subjects are you currently studying?</p>
+                    <ul>
+                        <li><input type="checkbox" value="Maths"><label>Maths</label></li>
+                        <li><input type="checkbox" value="Science"><label>Science</label></li>
+                        <li><input type="checkbox" value="English"><label>English</label></li>
+                        <li><input type="checkbox" value="Computer"><label>Computer</label></li>
+                        <li><input type="checkbox" value="Art"><label>Art</label></li>
+                    </ul>
+                </div>
+
+                <p id="imporvement">What do you think needs imporvement?</p>
+                <textarea name="improvement-text" id="text-area" cols="30" rows="10" placeholder="Please write something about the thing you want to get improved..."></textarea>
+
+                <input id="submit" type="submit" value="Submit">
+
+            </form>
+        </div> <!-- content ends -->
+    </div> <!-- container ends -->
+</body>
+
+</html>

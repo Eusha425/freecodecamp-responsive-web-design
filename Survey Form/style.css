@@ -1,0 +1,182 @@
+
+body{
+    background-image: url("image.jpg");
+    font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+    position: relative;
+    padding-left: 18%;
+    width: 60%;
+    text-align: center;
+    
+}
+
+#hero{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: dimgrey;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 80%;
+    margin-left: 10%;
+    z-index: 4;
+}
+
+#title, #description{
+    color: snow;
+}
+
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#description{
+    font-size: 18px;
+}
+
+.content{
+
+    margin-top: -1px;
+    padding-top: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
+    width: 80%;
+    margin-left: 11.25%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 650px;
+    z-index: 2;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+#survey-form{
+    text-align: justify;
+}
+
+#name-label{
+    position: relative;
+    top: 10px;
+    padding-left: 10%;
+}
+
+#name{
+    position: relative;
+    top: 10px;
+    left: 7.5%;
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+#email-label{
+    position: relative;
+    top: 60px;
+    right: 85%;
+    padding-left: 10%;
+}
+
+#email{
+    
+    position: relative;
+    left: 32%;
+    top: 15px;
+    width: 50%;
+}
+
+#number-label{
+    position: relative;
+    right:42%;
+    top:55px;
+}
+
+#number{
+    position: relative;
+    right:32.5%;
+    top: 55px;
+}
+
+#dropdown{
+    position: relative;
+    top: 105px;
+    right: 65%;
+    color: black;
+    
+}
+
+#current-student{
+    position: relative;
+    top: 115px;
+    left: 10%
+}
+
+li{
+    list-style: none;
+}
+
+#current-subject{
+    position: relative;
+    top: 115px;
+    
+}
+
+#current-subject p{
+    position: relative;
+    left: 10%;
+    top:10px;
+    width: 70%;
+}
+
+#current-subject ul{
+    position: relative;
+    left: 65%;
+    width: 30%;
+    bottom: 30px;
+}
+
+
+p#imporvement {
+    margin-top: 110px;
+    margin-left: 70px;
+}
+
+#text-area{
+    margin-left: 70px;
+    width: 70%;
+}
+
+input#submit{
+    position: relative;
+    top: 35px;
+    right: 71%;
+    background-color: rgb(237, 197, 137);
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    height: 25px;
+    font-size: 15px;
+    color: snow;
+    text-shadow: -2px 0 burlywood, 0 2px burlywood, 2px 0 burlywood, 0 -2px burlywood;
+}
+
+
+#submit:hover{
+    background-color: rgb(218, 173, 100);
+}
+
+#submit:active{
+    color: rgb(30, 26, 20);
+    text-shadow: none;
+    background-color: papayawhip;
+}
+
+label, p, input[type="submit"] {
+    color: #FFFFFF;
+}
+
+option{
+    color: #2F4F4F;
+}
