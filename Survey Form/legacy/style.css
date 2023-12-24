@@ -1,0 +1,63 @@
+body{
+    background-color: #342123;
+    color: #ffffff;
+    background-image: url(file:///C:/Users/Gazi%20Eusha/Downloads/anime-aesthetic-glitch-cityscape-jilqkte4amzi1chh.jpg);
+  }
+  h1{
+    
+    text-decoration: underline rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(4, 75, 69);
+    backdrop-filter: blur(15px) saturate(100%);
+    font-size: 40px;
+  
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  input{
+    background-color: #073763;
+    color: white;
+  }
+  label {
+    display: block;
+      margin: 0.5rem 0;
+    color: #ffffff
+  }
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #1a4143;
+    border-color: white;
+    min-width: 300px;
+  }
+  p[class="thank"]{
+    text-align: center;
+    text-decoration: underline rgb(20, 165, 209);
+    color: rgb(255 255 255);
+  }
+  p[class="product"]{
+    text-align: right;
+    font-size:15;
+    text-transform: capitalize;
+  
+  }
+  
+  p[class="education"]{
+     font-size: 20;
+     text-align: center;
+  }
+  .page {
+    width: 80%;
+    background: linear-gradient(#0d2d46, #147971, #151e2f);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 1000px;
+  }
