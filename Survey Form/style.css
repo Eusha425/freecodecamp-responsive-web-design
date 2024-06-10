@@ -1,0 +1,95 @@
+/* Importing the Mesozoic font */
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body {
+    padding: none;
+    margin: 0;
+    font-family: 'Skranji', Verdana, Geneva, Tahoma, sans-serif;
+    background: url(./image/background.jpg);
+    background-size: cover; /* This property ensures that the background image covers the entire viewport */
+    background-position: center; /* This property centers the background image */
+    color: rgb(241, 179, 97);
+    -webkit-text-stroke: 0.25px #131211;
+    
+}
+
+#title,
+#description {
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+    
+}
+
+/* Styling the headline */
+#title {
+    font-size: 3.5rem; 
+    color: #54350f; 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 10px;
+}
+
+.outlined-text {
+    -webkit-text-stroke: 0.5px #131211; /* For Webkit (Chrome, Safari, Opera) */
+    text-stroke: 2px black; /* Standard */
+}
+
+#description{
+    font-size: 1.5em;
+    color: #81541d; 
+}
+
+#initial{
+    border-radius: 10px 10px 0 0 ;
+    border-bottom: none;
+}
+.middle{
+    border-bottom: none;
+    border-top: none;
+}
+
+#additional{
+    border-top: none;
+}
+
+#survey-form {
+    width: 55%;
+    max-width: 550px;
+    padding: none;
+    margin: 0 auto;
+    
+}
+
+.back{
+    background-color: rgb(84, 53, 15, 0.5);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 95%;
+    margin: 5px 0 2px 0;
+    min-height: 1.75em;
+}
+
+.checkbox-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkbox-list li {
+    margin-bottom: 5px;
+}
+
+.checkbox-list input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.checkbox-list label {
+    display: inline-block;
+    vertical-align: middle;
+}
