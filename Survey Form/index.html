@@ -1,0 +1,115 @@
+<!-- Author: Gazi MD Wasi-UL-Hoque
+     Version: 10 June 2024 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurassic Park Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/image/x-icon.jpg" type="image/x-icon">
+</head>
+
+<body>
+
+    <h1 id="title" class="outlined-text">Jurassic Park Visitor Survey</h1>
+    <p id="description" class="outlined-text">We would love to hear your feedback about your visit to Jurassic Park. Please fill out the
+        survey below.</p>
+    <form id="survey-form" action="" method="get">
+        
+        <fieldset id="initial" class="back">
+            <label for="name" id="name-label">
+                Enter your name:
+                <input id="name" type="text" required placeholder="Owen Gradey">
+            </label>
+            <label for="email" id="email-label">
+                Enter your email:
+                <input id="email" type="email" required placeholder="Owen.gradey@jurassic.park">
+            </label>
+            <label for="number" id="number-label">
+                Enter your age:
+                <input id="number" type="number" min="13" max="120" required placeholder="45">
+            </label>
+        </fieldset>
+        <fieldset class="middle back" >
+            <label for="dropdown">
+                Please select your visitor type:
+                <select name="dropdown" id="dropdown">
+                    <option value="" disabled selected>Please select your visitor type</option>
+                    <option value="First-time visitor">First-time visitor</option>
+                    <option value="Returning visitor">Returning visitor</option>
+                </select>
+            </label>
+            <p>Is this your first time visiting?</p>
+            <label for="yes-no">
+                Yes
+                <input type="radio" name="yes-no" id="yes-no" value="yes">
+                No
+                <input type="radio" name="yes-no" id="yes-no" value="no">
+            </label>
+            <p>How would you rate your overall experience?</p>
+            <label for="experience">
+                Excellent
+                <input type="radio" name="experience" id="experience" value="excellent">
+                Good
+                <input type="radio" name="experience" id="experience" value="good">
+                Average
+                <input type="radio" name="experience" id="experience" value="Average">
+                Poor
+                <input type="radio" name="experience" id="experience" value="poor">
+            </label>
+        </fieldset>
+        <fieldset class="middle back">
+            <p>Which attractions did you enjoy the most?</p>
+            <ul class="checkbox-list">
+                <li>
+                    <input type="checkbox" id="dinosaur-exhibits" value="exhibits">
+                    <label for="dinosaur-exhibits">Dinosaur exhibits</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="guided-tours" value="tours">
+                    <label for="guided-tours">Guided tours</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="safari-adventure" value="adventure">
+                    <label for="safari-adventure">Safari adventure</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="kids-play-area" value="kids-play-area">
+                    <label for="kids-play-area">Kid's play area</label>
+                </li>
+            </ul>
+            <p>Which services did you use?</p>
+            <ul class="checkbox-list">
+                <li>
+                    <input type="checkbox" id="restaurants" value="restaurants">
+                    <label for="restaurants">Restaurants</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="gift-shops" value="shops">
+                    <label for="gift-shops">Gift Shops</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="restrooms" value="restrooms">
+                    <label for="restrooms">Restrooms</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="information-desks" value="information-desks">
+                    <label for="information-desks">Information desks</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset id="additional" class="back">
+            <label for="additional">
+                Any additional comments or suggestions?
+                <textarea name="additional" id="additional" placeholder="I really loved...." rows="3"
+                    cols="30"></textarea>
+            </label>
+        </fieldset>
+    
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
