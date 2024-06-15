@@ -1,0 +1,101 @@
+#title{
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: beige;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(67, 67, 67);
+    padding: 10px 15%;
+    border-radius: 30px;
+}
+
+body{
+    background-color: rgb(40, 36, 36);
+}
+
+#image-container{
+    padding: 10px;
+    background-color: bisque;
+    border-radius: 10px;
+    padding-bottom: 2px;
+}
+
+#img-div{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#tribute-container{
+    background-color: rgb(67, 67, 67);
+    padding: 30px;
+    margin-top: 3%;
+    border-radius: 30px;
+}
+
+#tribute-info{
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+}
+
+#img-caption{
+    text-align: center;
+    padding-top: 10px;
+    font-style: italic;
+    color: rgb(116, 82, 36);
+}
+
+li{
+    color: #f0f0f0;
+    list-style: none;
+}
+p{
+    
+    padding-top: 0;
+    padding-bottom: 40px;
+}
+
+h2, h3, h4, h5{
+    font-size: 25px;
+    text-decoration: underline;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#ref-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+#ref{
+    color: #f0f0f0;
+    align-self: center;
+}
+#link-link{
+    font-size: 25px;
+    align-self:center;
+    color: aliceblue;
+}
+
+#tribute-link{
+    font-family: monospace;
+    text-decoration: none;
+    color: darkgray;
+}
+
+#tribute-link:hover{
+    color: rgb(255, 255, 255);
+}
