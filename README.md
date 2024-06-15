@@ -21,7 +21,7 @@ Each section includes multiple interactive coding lessons and a hands-on project
 Here are the projects I'm working on:
 
 1. [Survey Form](https://github.com/Eusha425/freecodecamp-responsive-web-design/tree/main/Survey%20Form)
-2. Tribute Page (In progress)
+2. [Tribute Page](https://github.com/Eusha425/freecodecamp-responsive-web-design/tree/main/Tribute%20Page)
 3. Product Landing Page (In progress)
 4. Technical Documentation Page (In progress)
 5. Personal Portfolio Webpage (In progress)
