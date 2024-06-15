@@ -44,5 +44,3 @@ I plan to continue my learning journey with FreeCodeCamp and earn more certifica
 ## Contact Me 📫
 
 I'm always open to feedback, questions, and suggestions. Feel free to contact me through [LinkedIn](https://www.linkedin.com/in/gazi-eusha/).
-
-Happy coding! 💻
